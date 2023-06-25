@@ -1,7 +1,9 @@
+import error404 from '../../assets/images/404.png'
+
 export const NotFound = () => {
     return (
-        <div>
-            <h1>Page not found</h1>
+        <div style={{ backgroundColor: '#EEEEEE'}}>
+            <img src={error404} alt="error 404" style={{ maxWidth: '100%', height: 'auto' }} />
         </div>
     )
 }
